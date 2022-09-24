@@ -36,7 +36,7 @@ export default function Home({ allBlogs }) {
           // eslint-disable-next-line react/jsx-key
           <div className="card" key={blog.createdAt}>
             <div className="card-image">
-              <img alt="image" src={blog.imageUrl} />
+              <img className="blog-img" alt="image" src={blog.imageUrl} />
               <span className="card-title">{blog.title}</span>
             </div>
             <div className="card-content">

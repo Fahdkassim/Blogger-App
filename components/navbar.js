@@ -11,7 +11,7 @@ export default function Navbar({ user }) {
   return (
     <nav>
       <div className="nav-wrapper #00796b teal darken-2 nav-bar">
-        <Link href="/"><a className="brand-logo">Blogger</a></Link>
+        <Link href="/"><a className="logo">Blogger</a></Link>
         <ul id="nav-mobile" className="right">
           {
             user ?
