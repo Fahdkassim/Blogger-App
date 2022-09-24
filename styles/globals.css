@@ -24,3 +24,65 @@ a {
     background: black;
   }
 }
+.input-field input:focus {
+  border-bottom: 1px solid #00796b teal darken-2;
+  box-shadow: 0 1px 0 0 #000;
+}
+.welcome-note {
+  text-align: center;
+}
+.blog-container {
+  max-width: 600px;
+  margin: auto;
+}
+.text-area {
+  margin-top: 20px;
+  height: 100px;
+}
+.blog-header {
+  text-align: center;
+}
+.blogs-container {
+  margin: auto;
+  max-width: 600px;
+  padding-bottom: 20px;
+}
+p.min {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.buttons-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.img-detail {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 5px;
+}
+.nav-bar {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.create {
+  color: #00796b;
+}
+p {
+  text-align: justify;
+}
+p.mid {
+  text-align: center;
+}
+.comments-container {
+  display: flex;
+  gap: 10px;
+}
+#comment-name {
+  color: #00796b;
+  font-weight: bold;
+}
